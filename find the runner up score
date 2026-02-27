@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+# Remove duplicates and sort
+arr = sorted(set(arr))
+# Print the second highest (runner-up)
+print(arr[-2])
